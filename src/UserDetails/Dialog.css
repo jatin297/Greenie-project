@@ -1,0 +1,18 @@
+/* Add appropriate styling for the dialog overlay */
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Add styling for the dialog itself, ensuring it appears centered */
+.dialog {
+  /* Your dialog styles here */
+}
